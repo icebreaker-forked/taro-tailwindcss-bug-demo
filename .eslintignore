@@ -1,0 +1,16 @@
+dist/
+node_modules/
+config/
+.eslintrc.js
+.prettierrc.js
+.prettierrc.cjs
+.prettierrc.full.js
+.eslintignore
+.gitignore
+babel.config.js
+postcss.config.js
+tailwind.config.js
+project.config.json
+project.tt.json
+tsconfig.json
+types/

@@ -1,0 +1,16 @@
+.SafeArea_class{
+    padding-bottom: calc(110px + Max(env(safe-area-inset-bottom), 24px));
+}
+
+:global {
+    .nut-infinite-bottom {
+        padding: 20px 0 !important;
+    }
+}
+
+
+:global {
+    .nut-infinite-bottom-tips {
+        margin-bottom: 20px;
+    }
+}

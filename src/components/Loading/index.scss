@@ -1,0 +1,9 @@
+.component_loading {
+    font-size: 12px;
+    color: var(--primary-color);
+    padding-top: 20px;
+
+    &_text {
+        margin-right: 5px;
+    }
+}

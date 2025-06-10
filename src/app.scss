@@ -1,0 +1,36 @@
+.dialog_btns {
+	//height: 30px;
+	margin-bottom: 26px;
+	padding: 0 50px;
+	display: flex;
+	align-items: center;
+
+	.nut-button {
+		flex: 1;
+		margin-right: 24px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.dialog_btns_2 {
+	padding: 0 34px;
+}
+
+page {
+  height: 100%;
+  background: #fafafa;
+  text,
+  scroll-view,
+  swiper,
+  swiper-item,
+  view {
+      box-sizing: border-box;
+  }
+  image {
+      width: auto;
+      height: auto;
+      display: block;
+  }
+}

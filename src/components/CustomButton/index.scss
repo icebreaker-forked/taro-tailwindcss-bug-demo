@@ -1,0 +1,45 @@
+.component_button {
+	width: 75px;
+	font-size: 12px;
+	padding: 0 8px;
+	border-radius: 8px;
+
+	> view > view {
+		height: 100%;
+
+		.component_button_icon_wrap {
+			height: 100%;
+			display: flex;
+			align-items: center;
+			white-space: nowrap;
+			text {
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.component_button_iconfont_before {
+				font-size: 22px;
+				margin-right: 7px;
+				&:before {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 100%;
+				}
+			}
+
+			.component_button_iconfont {
+				font-size: 12px;
+				margin-left: 7px;
+				&:before {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 100%;
+				}
+			}
+		}
+	}
+}

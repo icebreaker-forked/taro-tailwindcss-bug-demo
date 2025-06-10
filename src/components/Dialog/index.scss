@@ -1,0 +1,16 @@
+.dialog_close_icon {
+	position: absolute !important;
+	right: 0px;
+	top: -30px;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.component_dialog {
+	overflow: visible !important;
+	margin-top: -10%;
+
+	.nut-dialog-content {
+		overflow: visible;
+	}
+}

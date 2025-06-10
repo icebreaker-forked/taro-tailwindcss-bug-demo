@@ -1,0 +1,72 @@
+.container{
+    height: 100%;
+    overflow: hidden;
+
+    :global{
+
+       
+
+        .nut-tabs-titles-scrollable{
+            flex-shrink: 0;
+
+            .nut-tabs-titles-item{
+                .nut-tabs-titles-item-text{
+                    font-size: 28px;
+                    color: #727272
+                }
+            }
+    
+            .nut-tabs-titles-item-active{
+                .nut-tabs-titles-item-text{
+                    color: var(--nutui-color-primary);
+                    font-size: 28px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .nut-tabs-content-wrap{
+            flex: 1;
+
+            .nut-tabs-content{
+                height: 100%;
+
+                .nut-tabpane{
+                    height: 100%;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+.list{
+    
+}
+
+.tab_title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    &.active {
+        .tab_title {
+            color: #82581A;
+            font-weight: 700;
+        }
+    }
+    .tab_title {
+        font-size: 28px;
+        color: #727272;
+    }
+    .sort_icon {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        image {
+            display: block;
+            width: 16px;
+            height: 24px;
+        }
+    }
+}

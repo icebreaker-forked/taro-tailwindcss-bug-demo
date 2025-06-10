@@ -1,0 +1,25 @@
+.question_dialog_wrap {
+	.question_dialog_top_img {
+		height: 200px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 24px 24px 0px 0px;
+		margin-bottom: 12px;
+	}
+
+	.question_dialog_title {
+		margin-bottom: 22px;
+	}
+
+	.question_dialog_desc {
+		padding: 0 24px;
+		text-indent: 2em;
+		text-align: left;
+		line-height: 16px;
+		@include setFont(12px, #727272);
+
+		&:last-child {
+			margin-bottom: 22px;
+		}
+	}
+}
