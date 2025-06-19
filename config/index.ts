@@ -42,6 +42,9 @@ export default defineConfig<"webpack5">(async (merge, { command, mode }) => {
 			resource: [path.resolve(__dirname, "..", "src/styles/mixin.scss")]
 			// data: `@import "@nutui/nutui-react/dist/styles/theme-default.scss";`,
 		},
+    terser:{
+      enable: true,
+    },
 		mini: {
 			postcss: {
 				pxtransform: {
